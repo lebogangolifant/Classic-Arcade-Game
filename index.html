@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chicken Predators</title>
+    <meta name="description" content="Udacity Fend Classic Arcade Game Project">
+    <meta name="author" content="Lebogang Olifant">
+    <meta name="viewport" content="width=device-width" "initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="images/chckn-icon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ranchers">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section id="modal" class="modal-section">
+      <div class="modal-content">
+        <h1 class="game-title">CHICKEN PREDATORS</h1>
+        <p>Your chicken farm is under attacked, how many chickens can you save. Use the <strong>keyboard arrow keys</strong> to save them, avoiding the enemy!</p>
+        <p><strong>Click on the chicken to play.</strong></p>
+      </div>
+  </section>
+
+  <div class="character">
+    <p>Select a farmer:</p>
+    <ul class="char-selector">
+      <li>
+        <img src="images/granpa-farmer.png" alt="granpa">
+        <p hidden>granPa</p>
+      </li>
+      <li>
+        <img src="images/girl-farmer.png" alt="girl">
+        <p hidden>girl</p>
+      </li>
+      <li>
+        <img src="images/boy-farmer.png" alt="boy">
+        <p hidden>boy</p>
+      </li>
+    </ul>
+  </div>
+  </div>
+
+  <p class="player-info"><strong>CHICKENS:</strong> <span class="score"></span> <strong>LIVES:</strong> <span class="lives-left"></span></p>
+
+  <div class="restart">
+    <i class="fas fa-redo fa-2x"> restart</i>
+  </div>
+
+  <!-- modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <h1>YOU RAN OUT OF TIME!</h1>
+      <h2>Your chickens are still in danger</h2>
+      <a class="close" href="#">x</a>
+      <p>Chickens saved: <span class="modal-score"></span></p>
+
+      <button class="play-again">
+        Try again
+      </button>
+    </div>
+  </div>
+
+  <script src="js/resources.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+</html>

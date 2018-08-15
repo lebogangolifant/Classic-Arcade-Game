@@ -1,0 +1,180 @@
+* {
+  /* Includes padding, border in element's total width/height */
+  box-sizing: border-box;
+}
+
+body,html {
+    text-align: center;
+    background-color: #74cf68;
+    margin: auto;
+    width: 760px;
+}
+
+/* Game title displayed in sidebar */
+.game-title {
+  color: #3fe42a;
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin: 1em;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+/* Adds extra space below line listing score and remaining lives (default bottom margin for p element is 1em) */
+.player-info {
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+}
+
+/* Adds some extra space to left of score displayed in side panel */
+.score {
+  padding-right: 1em;
+}
+
+.modal-section {
+  position: fixed;
+  background: url('../images/ninja-chicken.png') center no-repeat;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+}
+
+.modal-content {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  padding: 30px;
+  width: 80%;
+  max-height: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5em;
+  color: #ffffff;
+  border-radius: 7px;
+  font-family: sans-serif;
+}
+
+/* modal */
+.modal {
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  background: url('../images/warning.gif') center no-repeat;
+  border: 1px solid #c5c4c4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Added by function showModal() to element with id of "myModal," which is same element that has class "modal." Due to cascade, this selector's declaration overtakes display: none given to class "modal" */
+.modal-visible {
+  display: block;
+}
+
+.modal-content {
+  margin: 1% auto;
+  padding: 30px;
+  width: 80%;
+  color: #c81010;
+}
+
+.modal-content p {
+  font-size: 1.5rem;
+  margin: 1% auto;
+}
+
+/* Affects "x" button on modal */
+.close {
+	position: absolute;
+  font-weight: bold;
+	top: 20px;
+	right: 30px;
+	font-size: 30px;
+  /* Removes default (link) underline */
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.close:hover {
+  color: #ff1919;
+}
+
+.canvas {
+  margin-top: 0;
+  margin-bottom: 10em;
+  width:75%;
+  height: 75%;
+}
+
+/* Game play again/restart button */
+.restart {
+  font-size: 1rem;
+	cursor: pointer;
+  color: #ffffff;
+  margin-top: 1.5em;
+}
+
+/* Affects button inside modal that resets game on click */
+.play-again {
+  cursor: pointer;
+	background-color: #3bbf2a;
+  /* Removes default border that looks like shadow */
+  border: none;
+	padding: 0.7rem 1rem;
+	font-size: 1.1rem;
+  /* Button elements are inline-block by default */
+	display: block;
+	margin: 2% auto;
+	width: 50%;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e01937;
+}
+
+/* Character selection section */
+.character p {
+  margin-bottom: 1em;;
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.char-selector {
+  /* Changes images in ul to be displayed in a row since default for display: flex is flex-direction: row */
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-left: 0;
+}
+
+.char-selector li {
+  list-style: none;
+}
+
+.char-selector img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.char-selector img {
+  width: 100px;
+}
