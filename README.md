@@ -15,7 +15,9 @@ Your chicken farm is under attacked, how many chickens can you save. Use the key
 
 
 ### Game Screenshot
-
+![game intro](https://user-images.githubusercontent.com/40595189/44144752-09beffb0-a089-11e8-8778-617d8c56a163.png)
+![the game](https://user-images.githubusercontent.com/40595189/44144754-0a40aac4-a089-11e8-8af9-36224cc79b2b.png)
+![game over](https://user-images.githubusercontent.com/40595189/44144753-0a009e2a-a089-11e8-8116-ce138aa3278c.png)
 
 ## Game Controls
 
@@ -23,4 +25,4 @@ Your chicken farm is under attacked, how many chickens can you save. Use the key
 
 ## Play The Game
 
- [Chicken Predators](https://lebogango.github.io/Udacity-Portfolio-Page/.)
+ [Chicken Predators](https://lebogango.github.io/Classic-Arcade-Game/.)
