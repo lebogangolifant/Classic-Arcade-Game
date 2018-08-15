@@ -16,7 +16,7 @@ Your chicken farm is under attacked, how many chickens can you save. Use the key
 
 ### Game Screenshot
 
-![game intro|100x100](https://user-images.githubusercontent.com/40595189/44144752-09beffb0-a089-11e8-8778-617d8c56a163.png)
+![game-intro](https://user-images.githubusercontent.com/40595189/44146109-71231f56-a08e-11e8-8f06-b03093d40d8b.png)
 ![the game](https://user-images.githubusercontent.com/40595189/44144754-0a40aac4-a089-11e8-8af9-36224cc79b2b.png)
 
 ## Game Controls
