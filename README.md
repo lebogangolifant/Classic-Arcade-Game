@@ -1,5 +1,4 @@
 # Udacity-Classic-Arcade-Game
-
 Front-End Web Nanodegree Scholarship project 3. classic frogger arcade-game.
 
 ## Game Logics
