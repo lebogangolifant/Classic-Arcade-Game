@@ -24,4 +24,4 @@ Your chicken farm is under attacked, how many chickens can you save. Use the key
 
 ## Play The Game
 
- [Chicken Predators](https://lebogango.github.io/Classic-Arcade-Game/.)
+ [Chicken Predators](https://lebogangolifant.github.io/Classic-Arcade-Game/.)
