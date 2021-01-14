@@ -6,8 +6,9 @@
 body,html {
     text-align: center;
     background-color: #74cf68;
-    margin: auto;
+    margin: auto auto 0 auto;
     width: 760px;
+    overflow: hidden;
 }
 
 /* Game title displayed in sidebar */
@@ -20,7 +21,7 @@ body,html {
 
 p {
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 1em;
   padding-left: 0em;
   padding-right: 0em;
@@ -118,16 +119,16 @@ p {
 .canvas {
   margin-top: 0;
   margin-bottom: 10em;
-  width:75%;
-  height: 75%;
+  width: 65%;
+  height: 5%;
 }
 
 /* Game play again/restart button */
-.restart {
-  font-size: 1rem;
+.restart i {
+  font-size: 1em;
 	cursor: pointer;
   color: #ffffff;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 /* Affects button inside modal that resets game on click */
@@ -151,11 +152,23 @@ button:hover {
 }
 
 /* Character selection section */
+@media only screen and (max-width: 600px) {
+  .character {
+    margin-top: 30%;
+    font-size: 1.8em;
+  }
+  .player-info  {
+    font-size: 1.8em;
+  }
+  .restart i {
+    font-size: 1.8em;
+  }
+}
 .character p {
   margin-bottom: 1em;;
   margin-top: 1em;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .char-selector {
@@ -176,5 +189,5 @@ button:hover {
 }
 
 .char-selector img {
-  width: 100px;
+  width: 80px;
 }
